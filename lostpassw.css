@@ -1,0 +1,77 @@
+.loginbox
+{
+    width: 355px;
+    height: 519px;
+    background-color:rgb(26, 25, 25);
+    color: rgb(207, 138, 10);
+    top:57.5%;
+    left: 50%;
+    right: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    outline: 12px;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 10px;
+}
+.loginbox p{
+    margin: 3.5%;
+    padding: 0%;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid#fff;
+    background: transparent;
+    outline: none;
+    height:30px;
+    margin-bottom: 27px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="Confirmpassword"]
+{
+    border:none;
+    border-bottom:1px solid#fff;
+    background: transparent;
+    outline: none;
+    height:30px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline:12px;
+    height: 35px;
+    background: #09df0d;
+    color: #fff;
+    font-size: 19px;
+
+}
+.loginbox input[type="sumbit"]:hover{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(245, 104, 11);
+    margin-left: 10px;
+}
